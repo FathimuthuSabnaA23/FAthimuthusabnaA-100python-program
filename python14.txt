@@ -1,0 +1,14 @@
+program 14
+a=[]
+n=int(input("enter the number of elements:"))
+for i in range(1,n+1):
+    b=int(inout("enter element:"))
+    a.append(b)
+    print("second largest element is:",a[n-2])
+
+output
+enter the number of elements:python
+Traceback (most recent call last):
+  File "C:/Users/TEMP.KCW.010/Desktop/prg14.py", line 2, in <module>
+    n=int(input("enter the number of elements:"))
+ValueError: invalid literal for int() with base 10: 'python'

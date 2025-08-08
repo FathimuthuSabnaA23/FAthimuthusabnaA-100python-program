@@ -1,0 +1,12 @@
+program 18
+l=[2,58,95,999,65,32,15,1,7,45]
+print(l)
+m=min(l)
+print("the minimum elements is :",m)
+print("index of miniomum element is:",l.index(m))
+output
+[2, 58, 95, 999, 65, 32, 15, 1, 7, 45]
+the minimum elements is : 1
+index of miniomum element is: 7
+45
+45

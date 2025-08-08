@@ -1,0 +1,6 @@
+program 20
+l=[2,58,95,999,95,32,15,95,7,45]
+n=int(input("enter the number :"))
+print("the frequency of number",n,"is",l.count(n))
+putput
+enter the number :999meran of list is: 131.9

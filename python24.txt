@@ -1,0 +1,15 @@
+program 24
+s=input("Enter the string:")
+n=len(s)
+for i in range(0,n):
+    for j in range(0,i):
+        print(s[j],end='')
+        print("")
+output
+Enter the string:abcd
+a
+a
+b
+a
+b
+c

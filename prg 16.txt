@@ -1,0 +1,17 @@
+program 16
+
+n=int(input("enter the limit:"))
+s=0
+for i in range(0,n+1,2):
+    s=s+i
+    print("the sum is:",s)
+ output
+enter the limit:15
+the sum is: 0
+the sum is: 2
+the sum is: 6
+the sum is: 12
+the sum is: 20
+the sum is: 30
+the sum is: 42
+the sum is: 56

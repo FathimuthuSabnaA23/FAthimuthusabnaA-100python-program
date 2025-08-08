@@ -1,0 +1,9 @@
+program25
+tpl=eval(input("Enter tuple:"))
+lenght=len(tpl)
+mean=sum=0
+for i in range(0,lenght):
+    sum+=tpl[i]
+    mean=sum/lenght
+    print("Given tuple is:",tpl)
+    print("The Mean of given tuple is:",mean)

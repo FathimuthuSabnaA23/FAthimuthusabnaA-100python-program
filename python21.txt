@@ -1,0 +1,14 @@
+program 21
+L=[1,2,"TWO",3,4,"FOUR",5]
+s=0
+for x in L:
+    if type(x)==int:
+        s=s+x
+        print("the sum of ibtegers is : ",s)
+        
+output
+the sum of ibtegers is :  1
+the sum of ibtegers is :  3
+the sum of ibtegers is :  6
+the sum of ibtegers is :  10
+the sum of ibtegers is :  15

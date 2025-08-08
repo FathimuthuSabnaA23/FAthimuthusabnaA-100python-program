@@ -1,0 +1,38 @@
+
+program 2
+ovpay=0
+sum=0
+for i in range(1,11):
+    print("Enter working hours of emp",i,":")
+    h=int(input())
+if(h>40):
+        extra=h-40
+        ovpay=extra*12
+        print("Over time pay of emp",i,"is",ovpay)
+        sum=sum+ovpay
+else:
+        print("No overtime pay")
+        print("Total overtime pay of all employees:",sum)
+======================== RESTART: C:/Users/TEMP.KCW.000/Desktop/python2.py ========================
+Enter working hours of emp 1 :
+43
+Enter working hours of emp 2 :
+44
+Enter working hours of emp 3 :
+41
+Enter working hours of emp 4 :
+40
+Enter working hours of emp 5 :
+42
+Enter working hours of emp 6 :
+42
+Enter working hours of emp 7 :
+44
+Enter working hours of emp 8 :
+4565
+Enter working hours of emp 9 :
+247
+Enter working hours of emp 10 :
+2574
+Over time pay of emp 10 is 30408
+
